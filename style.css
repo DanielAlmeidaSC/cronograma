@@ -67,7 +67,7 @@ button{
 }
  
 #lista{
-
+    list-style-type: none;
     font-size: 20px;
     margin-top: 5%;
     text-align: center;
