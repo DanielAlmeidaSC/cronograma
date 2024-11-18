@@ -23,7 +23,7 @@ function verificarCronograma() {
     switch (leitura) {
         case "segunda ":
             case "segunda": 
-                case "segunda-feira ":
+                case "segunda-feira":
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${java}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
@@ -33,7 +33,7 @@ function verificarCronograma() {
             break;
         case "terça ":
             case "terça":
-                case "terça-feira ":
+                case "terça-feira":
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${java}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
@@ -43,7 +43,7 @@ function verificarCronograma() {
             break;
         case "quarta ":
             case "quarta":
-                case "quarta-feira ":
+                case "quarta-feira":
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${faculdade}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
@@ -53,7 +53,7 @@ function verificarCronograma() {
             break;
         case "quinta ":
         case "quinta":
-            case "quinta-feira ":
+            case "quinta-feira":
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${front}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
@@ -63,7 +63,7 @@ function verificarCronograma() {
             break;
         case "sexta ":
         case "sexta":
-            case "sexta-feira ":
+            case "sexta-feira":
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${front}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
