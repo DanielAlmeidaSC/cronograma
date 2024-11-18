@@ -111,6 +111,7 @@ button{
     
     #lista{
      text-align: center;
+     justify-content: space-around;
      width: 200px;
 
     }
