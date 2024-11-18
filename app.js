@@ -21,8 +21,8 @@ function verificarCronograma() {
 
 
     switch (leitura) {
-        case "segunda":
-            case "segunda-feira":
+        case "segunda ":
+            case "segunda-feira ":
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${java}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
@@ -30,8 +30,8 @@ function verificarCronograma() {
                 document.querySelector('#noite').innerHTML = `${noite}`;
                 document.querySelector('#tarefa5').innerHTML = `${java}`;
             break;
-        case "terça":
-            case "terça-feira":
+        case "terça ":
+            case "terça-feira ":
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${java}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
@@ -39,8 +39,8 @@ function verificarCronograma() {
                 document.querySelector('#noite').innerHTML = `${noite}`;
                 document.querySelector('#tarefa5').innerHTML = `${java}`;
             break;
-        case "quarta":
-            case "quarta-feira":
+        case "quarta ":
+            case "quarta-feira ":
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${faculdade}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
@@ -48,8 +48,8 @@ function verificarCronograma() {
                 document.querySelector('#noite').innerHTML = `${noite}`;
                 document.querySelector('#tarefa5').innerHTML = `${front}`;
             break;
-        case "quinta":
-            case "quinta-feira":
+        case "quinta ":
+            case "quinta-feira ":
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${front}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
@@ -57,8 +57,8 @@ function verificarCronograma() {
                 document.querySelector('#noite').innerHTML = `${noite}`;
                 document.querySelector('#tarefa5').innerHTML = `${front}`;
             break;
-        case "sexta":
-            case "sexta-feira":
+        case "sexta ":
+            case "sexta-feira ":
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${front}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
@@ -66,14 +66,14 @@ function verificarCronograma() {
                 document.querySelector('#noite').innerHTML = `${noite}`;
                 document.querySelector('#tarefa5').innerHTML = `${front}`;
             break;
-        case "sábado":
-            case "sabado":
+        case "sábado ":
+            case "sabado ":
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${front}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
                 document.querySelector('#tarefa3').innerHTML = `${front}`;
             break;
-        case "domingo":
+        case "domingo ":
                 document.querySelector('#manha').innerHTML = `${deitar}`;
             break;
         
