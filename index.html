@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Cronograma</h1>
+
+        <section id="links_sites">
+             <a href="https://www.alura.com.br/">Alura</a>
+             <a href="https://acad.unoesc.edu.br/academico/mainMenu.jspa">Faculdade</a>
+             <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Guia CSS</a>
+        </section>
+    </header>
+    <main>
+        <section id="entra_dados">
+                <label>Digite o dia</label>
+                <br>
+                <input type="text" id="entra_dia">
+                <br>
+                <button  onclick="verificarCronograma()">Verificar</button> 
+       </section>
+    
+    <section id="lista">
+        <ol type="i">
+            <li id="manha"></li>
+            <li id="tarefa1"></li>
+            <li id="tarefa2"></li>
+
+            <li id="tarde"></li>
+            <li id="tarefa3"></li>
+            <li id="tarefa4"></li>
+
+            <li id="noite"></li>
+            <li id="tarefa5"></li>
+            <li id="tarefa6"></li>
+
+            <li id="descansar"></li>
+        </ol>
+
+    </section>
+</body>
+<script src="app.js"></script>
+</html>
