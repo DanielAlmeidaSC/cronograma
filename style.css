@@ -113,7 +113,7 @@ button{
      text-align: center;
      margin-left: 10%;
      width: 300px;
-     justify-content: space-around;
      list-style-type: none;
+     font-size: 20px
     }
 }
