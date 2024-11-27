@@ -47,9 +47,9 @@ function verificarCronograma() {
                 document.querySelector('#manha').innerHTML = `${manha}`;
                 document.querySelector('#tarefa1').innerHTML = `${faculdade}`;
                 document.querySelector('#tarde').innerHTML = `${tarde}`;
-                document.querySelector('#tarefa3').innerHTML = `${front}`;
+                document.querySelector('#tarefa3').innerHTML = `${java}`;
                 document.querySelector('#noite').innerHTML = `${noite}`;
-                document.querySelector('#tarefa5').innerHTML = `${front}`;
+                document.querySelector('#tarefa5').innerHTML = `${java}`;
             break;
         case "quinta ":
         case "quinta":
